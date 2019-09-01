@@ -76,8 +76,6 @@ html {
   line-height: 7rem;
 }
 .wrap {
-  /* выравнивание посередине с помощью обёртки с блоком внутри */
-  display: table;
   width: 100%;
   height: 7rem;
 }
