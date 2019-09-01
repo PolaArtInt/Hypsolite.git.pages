@@ -3,11 +3,26 @@ html {
   font-size: 10px;
   font-family: 'Montserrat', sans-serif;
 }
+/* Colors */
 /*  Main */
+.header {
+  padding: 1rem 0;
+  height: 7rem;
+}
+.header-btn {
+  margin-right: 0;
+  display: inline;
+}
 .header-2 {
   font-size: 2.5rem;
   color: #1a1820;
   font-weight: 700;
+}
+.main {
+  width: 100%;
+  background: #f5f5f5 url("../img/main-background.jpg") center center no-repeat;
+  background-position-x: 20%;
+  background-position-y: 1%;
 }
 .main-section {
   padding: 10rem 0;
@@ -31,16 +46,6 @@ html {
   margin-top: 3rem;
   letter-spacing: 0.1rem;
 }
-.main {
-  width: 100%;
-  background: #ffffff url("../img/main-background.jpg") center center no-repeat;
-  background-position-x: 20%;
-  background-position-y: 1%;
-}
-.header {
-  padding: 1rem 0;
-  height: 7rem;
-}
 .button {
   width: 100%;
   background-color: #fdb303;
@@ -48,22 +53,13 @@ html {
   text-transform: uppercase;
   padding: 2rem 2.7rem;
   border-radius: 0.5em;
-  -webkit-box-shadow: 0 1rem 1rem 0 rgba(0, 0, 0, 0.1);
-          box-shadow: 0 1rem 1rem 0 rgba(0, 0, 0, 0.1);
-  background: -webkit-gradient(linear, left bottom, left top, from(#f6ad00), to(#ffb504));
+  box-shadow: 0 1rem 1rem 0 rgba(0, 0, 0, 0.1);
   background: linear-gradient(to top, #f6ad00, #ffb504);
   line-height: 1rem;
   text-align: center;
   border: none;
   font-weight: 700;
   letter-spacing: 0.1rem;
-}
-.header-btn {
-  margin-right: 0;
-  display: inline;
-}
-.form-button {
-  font-size: 1.2rem;
 }
 .phone-link {
   display: inline-block;
@@ -83,30 +79,11 @@ html {
   vertical-align: middle;
 }
 /* Form */
-.form-container {
-  width: 36.5rem;
-  height: 41.2rem;
-  background-color: white;
-  text-align: center;
-  margin: auto;
-  border: 1px solid #fffefe;
-}
-.form-container-wraper {
-  width: 80%;
-  height: 35rem;
-  vertical-align: bottom;
-  background-color: white;
-}
-.form-header {
-  margin: 3rem 0 0 0;
-  font-size: 1.5rem;
-  line-height: 1.2;
-}
-.form-header-span {
-  font-weight: bold;
-}
 .form {
   margin-top: 10%;
+}
+.form-button {
+  font-size: 1.2rem;
 }
 .form-control {
   width: 25.5rem;
@@ -114,13 +91,35 @@ html {
   text-align: center;
   margin: -1.3rem 5rem 2rem 5rem;
 }
+.form-container {
+  width: 36.5rem;
+  height: 41.2rem;
+  background-color: #f5f5f5;
+  text-align: center;
+  margin: auto;
+  border: 1px solid #f5f5f5;
+}
+.form-container-wraper {
+  width: 80%;
+  height: 35rem;
+  vertical-align: bottom;
+  background-color: #f5f5f5;
+}
+.form-header {
+  margin: 3rem 0 0 0;
+  font-size: 1.5rem;
+  line-height: 1.2;
+}
+.form-span {
+  font-weight: bold;
+}
 .form-label-1 {
-  background-color: #fff;
+  background-color: #f5f5f5;
   width: 7em;
   height: 1.5em;
 }
 .form-label-2 {
-  background-color: #fff;
+  background-color: #f5f5f5;
   width: 10.1em;
   height: 1.5em;
 }
@@ -129,25 +128,43 @@ html {
   height: 5.5rem;
   margin: 1rem 5rem;
 }
-/* Features */
-.feature-container {
-  margin-bottom: 10rem;
-}
-.feature {
+.trigger {
   width: 16rem;
   height: 8rem;
   background-color: #26c054;
-  color: white;
+  color: #f5f5f5;
   text-align: center;
   padding: 2rem;
   font-weight: 500;
   font-size: 1.1em;
   margin-left: 0;
 }
-.feature span {
+.trigger span {
   font-size: 2rem;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   line-height: 2rem;
+}
+/* Features */
+.feature-header {
+  margin-top: 7rem;
+  margin-bottom: 4rem;
+  font-weight: 700;
+}
+.feature-container {
+  margin-bottom: 10rem;
+}
+.feature-box {
+  width: 23rem;
+  height: 26rem;
+  margin-top: 12rem;
+  display: inline-block;
+}
+.feature-box .a {
+  color: #49bf15;
+}
+.feature-box-p {
+  line-height: 1.5;
+  letter-spacing: 0.2rem;
 }
 .text-wraper {
   display: block;
@@ -159,22 +176,4 @@ html {
   display: block;
   text-align: center;
   font-weight: 600;
-}
-.feature-box {
-  width: 23rem;
-  height: 26rem;
-  margin-top: 12rem;
-  display: inline-block;
-}
-.feature-box .a {
-  color: #49bf15;
-}
-.feature-box .feature-p {
-  line-height: 1.5;
-  letter-spacing: 0.2rem;
-}
-.feature-header {
-  margin-top: 7rem;
-  margin-bottom: 4rem;
-  font-weight: 700;
 }
