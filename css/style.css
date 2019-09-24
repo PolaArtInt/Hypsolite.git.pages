@@ -1,10 +1,8 @@
-/* Fonts */
 html {
   font-size: 10px;
-  /* 10px = 1rem */
   font-family: 'Montserrat', sans-serif;
 }
-/* Colors */
+
 /*  Main */
 button:focus,
 input:focus,
